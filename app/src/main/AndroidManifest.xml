@@ -38,7 +38,6 @@
         <activity android:name=".ui.activity.ReadActivity">
         </activity>
         <activity android:name=".ui.activity.FileSystemActivity"/>
-        <activity android:name=".ui.activity.CommunityActivity" />
         <activity android:name=".ui.activity.MoreSettingActivity" />
     
         <service android:name=".service.DownloadService" />

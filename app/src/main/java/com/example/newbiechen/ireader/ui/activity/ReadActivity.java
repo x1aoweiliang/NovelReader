@@ -525,13 +525,6 @@ public class ReadActivity extends BaseMVPActivity<ReadContract.Presenter>
                 (v) -> BookDetailActivity.startActivity(this, mBookId)
         );
 
-        mTvCommunity.setOnClickListener(
-                (v) -> {
-                    Intent intent = new Intent(this, CommunityActivity.class);
-                    startActivity(intent);
-                }
-        );
-
         mSettingDialog.setOnDismissListener(
                 dialog -> hideSystemBar()
         );
